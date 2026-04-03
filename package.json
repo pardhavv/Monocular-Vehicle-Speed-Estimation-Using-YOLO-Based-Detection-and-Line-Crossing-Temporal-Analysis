@@ -1,0 +1,17 @@
+{
+    "name": "speed-detection",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Aniket Kumar",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "ejs": "^3.1.10",
+        "express": "^4.19.2",
+        "multer": "^1.4.5-lts.1"
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Speed Detection</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 15px;
+                text-align: center;
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-between;
+                background-color: #555;
+                padding: 10px;
+            }
+
+            .back-button {
+                background-color: #007bff;
+                color: #fff;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .back-button:hover {
+                background-color: #0056b3;
+            }
+
+            #imageContainer {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .element_box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgb(213, 215, 213);
+                margin: 10px;
+                padding: 10px;
+                border-radius: 20px;
+                border: none;
+            }
+
+            .element_box:hover {
+                background-color: rgb(182, 186, 182);
+            }
+
+            .defect {
+                height: 294px;
+                width: 600px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>High Speed Vehicles</h1>
+        </header>
+
+        <nav>
+            <form action="/" method="GET">
+                <button type="submit" class="back-button">Back</button>
+            </form>
+        </nav>
+
+        <div id="imageContainer">
+            <% items.forEach(item => { %>
+            <div class="element_box">
+                <img
+                    src="<%= 'high_speed_frames/' + item %>"
+                    alt="<%= item %>"
+                    class="defect"
+                />
+                <p><%=item%></p>
+            </div>
+            <% }); %>
+        </div>
+    </body>
+</html>
