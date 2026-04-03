@@ -40,6 +40,15 @@ This approach provides a **scalable and cost-effective alternative** to traditio
 
 ---
 
+## 📸 Screenshots
+
+- **Interface**
+- <img width="1919" height="874" alt="upload" src="https://github.com/user-attachments/assets/8c7a9ae1-3ace-42f5-a02f-5968123322b2" />
+
+- **Detected vehicles with speed estimation**
+- <img width="1919" height="878" alt="output" src="https://github.com/user-attachments/assets/6d53cc78-36c4-447f-b7ef-2ef6e56533f6" />
+
+
 
 ## 📊 Results
 - **Detection Accuracy:** ~92.5%
