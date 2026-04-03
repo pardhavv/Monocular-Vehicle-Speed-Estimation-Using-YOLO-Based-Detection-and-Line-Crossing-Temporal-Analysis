@@ -46,14 +46,20 @@ This approach provides a **scalable and cost-effective alternative** to traditio
 - **Speed Estimation Error:** ±5%
 - **Robustness:** Performs well across varying traffic and lighting conditions
 
+---
+
 ## 🚀 Applications
 - **Traffic monitoring and law enforcement**
 - **Smart city surveillance systems**
 - **Automated speed violation detection**
 - **Intelligent transportation systems**
 
+---
+
 ## 🔮 Future Work
 - **Integrate camera calibration / homography for real-world distance estimation**
 - **Upgrade tracking using DeepSORT or Kalman filtering**
 - **Improve robustness in dense traffic scenarios**
 - **Optimize for edge deployment.**
+
+---
